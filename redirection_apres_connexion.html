@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Votre compte - Educours</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Educours</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Mon compte</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="account">
+            <h2>Votre compte</h2>
+            <p>Bienvenue, [Nom d'utilisateur] !</p>
+            <p>Voici vos statistiques :</p>
+            <ul>
+                <li>Nombre de cours publiés : [Nombre]</li>
+                <li>Nombre total de vues : [Nombre]</li>
+                <li>Nombre de cours, quizz et vidéos visionnés : [Nombre]</li>
+            </ul>
+            <button onclick="logout()">Se déconnecter</button>
+            <button onclick="accountManagement()">Gestion du compte</button>
+
+            <div id="premium-offer">
+                <h3>Passer à Premium ?</h3>
+                <p>Apprenez sans limites...</p>
+                <p>--> Du contenu en illimité : Accédez aux cours, aux vidéos et aux quizz sans restrictions.</p>
+                <p>... Sans publicités...</p>
+                <p>--> Suppression des annonces publicitaires.</p>
+                <p>... Et où que vous soyez !</p>
+                <p>--> Téléchargez le contenu librement afin d'y avoir accès pour toujours !</p>
+                <button onclick="upgradeToPremium()">Profiter de l'offre Premium</button>
+            </div>
+
+            <div id="central-buttons">
+                <a href="#"><img src="https://imgur.com/a/TTmw6dp" alt="Rechercher des cours"></a>
+                <a href="#"><img src="https://imgur.com/a/3LnBr5Y" alt="Créer des cours"></a>
+            </div>
+        </section>
+    </main>
+
+    <script src="validation.js"></script>
+</body>
+</html>
