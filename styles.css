@@ -8,7 +8,7 @@
 /* Styles de base */
 body {
     font-family: Georgia, "Times New Roman", Times, serif;
-    background-color: #c2d9f0;
+    background-color: #f5e99f;
     color: #333;
     line-height: 1.6;
 }
@@ -58,14 +58,54 @@ h2 {
     margin-bottom: 10px;
 }
 
-#features p {
+p {
     margin-bottom: 10px;
 }
 
-#features ul {
-    margin-bottom: 20px;
+ul {
+    margin-bottom: 10px;
 }
 
-#features ul li {
-    margin-bottom: 5px;
+button {
+    padding: 10px 20px;
+    background-color: #5c87db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #1c2361;
+}
+
+#premium-offer {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #001f3f;
+    color: #fff;
+    border-radius: 10px;
+}
+
+#premium-offer h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+#central-buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#central-buttons img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+#central-buttons img:hover {
+    transform: scale(1.1);
 }
